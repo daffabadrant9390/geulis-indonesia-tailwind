@@ -11,6 +11,8 @@ import RegisterPage from "./pages/RegisterPage.js";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
 
 function App() {
   useEffect(() => {

@@ -48,7 +48,7 @@ function QuestionsList() {
                 <img
                   src={ArrowIcon}
                   className={[
-                    "w-full h-full object-cover transition-all duration-500",
+                    "w-full h-full object-cover transition-all duration-500 cursor-pointer",
                     questionOpen2 ? "rotate-180" : "rotate-0",
                   ].join(" ")}
                   alt="Arrow Icon"

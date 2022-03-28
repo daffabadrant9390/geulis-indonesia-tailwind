@@ -9,7 +9,7 @@ function FaqHeader() {
           <h2 className="xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold xs:mb-5 md:mb-10 text-gray-900">
             Frequently Asked Question
           </h2>
-          <p className="xs:text-sm md:text-base text-gray-900">
+          <p className="w-3/4 xs:text-sm md:text-base text-gray-900">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
             mollitia, molestiae quas vel sint commodi repudiandae consequuntur
             voluptatum laborum numquam blanditiis harum quisquam eius sed odit
@@ -20,7 +20,7 @@ function FaqHeader() {
           <div className="flex justify-end items-center">
             <img
               src={FaqHeaderImg}
-              className="w-120 h-100 rounded-l-xl object-cover"
+              className="w-full h-100 rounded-l-xl object-cover"
               alt="Frequently Asked Question"
             />
           </div>

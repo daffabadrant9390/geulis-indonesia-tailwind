@@ -49,7 +49,7 @@ function Benefit() {
           {benefitsData.map((benefit) => {
             return (
               <div
-                className="h-full p-8 bg-white rounded-lg shadow-md"
+                className="h-full xs:p-4 md:p-6 bg-white rounded-lg custom-shadow"
                 key={benefit.id}
               >
                 <img
@@ -60,7 +60,7 @@ function Benefit() {
                 <h4 className="text-xl font-semibold text-gray-900 my-3">
                   {benefit.title}
                 </h4>
-                <p className="xs:text-sm md:text-base text-gray-600">
+                <p className="xs:text-sm md:text-base text-gray-600 text-justify">
                   {benefit.description}
                 </p>
               </div>

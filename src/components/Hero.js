@@ -3,9 +3,9 @@ import React from "react";
 function Hero() {
   return (
     <section className="w-full xs:h-full md:h-screen bg-hero-img bg-cover bg-no-repeat bg-center shadow-md flex justify-center items-center">
-      <div className="max-w-screen-2xl w-full px-10 py-36">
+      <div className="max-w-screen-2xl w-full px-10 py-36" data-aos="fade-up">
         <h1 className="xs:text-4xl md:text-5xl text-black font-semibold xs:leading-normal md:leading-tight lg:leading-normal">
-          Grow your wish <br />
+          Grow your Wish <br />
           with Geulis <br />
           Indonesia
         </h1>

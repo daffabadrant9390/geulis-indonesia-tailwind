@@ -1,11 +1,38 @@
 import React from "react";
-import InstagramIcon from "../assets/icons/instagram-icon.svg";
-import TwitterIcon from "../assets/icons/twitter-icon.svg";
-import FacebookIcon from "../assets/icons/facebook-icon.svg";
-import SnapchatIcon from "../assets/icons/snapchat-icon.svg";
-import TelegramIcon from "../assets/icons/telegram-icon.svg";
+// import InstagramIcon from "../assets/icons/instagram-icon.svg";
+// import TwitterIcon from "../assets/icons/twitter-icon.svg";
+// import FacebookIcon from "../assets/icons/facebook-icon.svg";
+// import SnapchatIcon from "../assets/icons/snapchat-icon.svg";
+// import TelegramIcon from "../assets/icons/telegram-icon.svg";
 
 function AlumniCompany() {
+  const alumniCompanies = [
+    {
+      id: 1,
+      imgData: "images/partnership/bhineka-logo.png",
+    },
+    {
+      id: 2,
+      imgData: "images/partnership/aisec-logo.png",
+    },
+    {
+      id: 3,
+      imgData: "images/partnership/aksel-logo.png",
+    },
+    {
+      id: 4,
+      imgData: "images/partnership/hult-prize-logo.png",
+    },
+    {
+      id: 5,
+      imgData: "images/partnership/xlfl-logo.png",
+    },
+    {
+      id: 6,
+      imgData: "images/partnership/genbi-logo.png",
+    },
+  ];
+
   return (
     <section
       id="alumni"
@@ -17,60 +44,22 @@ function AlumniCompany() {
             Where are Our Alumni?
           </h2>
         </div>
-        <div
-          className="grid grid-cols-5 justify-center justify-items-center xs:gap-8 md:gap-14"
-          data-aos="fade-up"
-        >
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={InstagramIcon}
-            alt="Instagram Logo"
-          />
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={TwitterIcon}
-            alt="Twitter Logo"
-          />
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={FacebookIcon}
-            alt="Facebook Logo"
-          />
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={SnapchatIcon}
-            alt="Snapchat Logo"
-          />
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={TelegramIcon}
-            alt="Telegram Logo"
-          />
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={InstagramIcon}
-            alt="Instagram Logo"
-          />
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={TwitterIcon}
-            alt="Twitter Logo"
-          />
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={FacebookIcon}
-            alt="Facebook Logo"
-          />
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={SnapchatIcon}
-            alt="Snapchat Logo"
-          />
-          <img
-            className="xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-16 md:h-16"
-            src={TelegramIcon}
-            alt="Telegram Logo"
-          />
+        <div className="w-full h-full flex justify-center">
+          <div
+            className="max-w-screen-md w-full grid grid-cols-3 justify-center justify-items-center items-center xs:gap-4 sm:gap-8 md:gap-14"
+            data-aos="fade-up"
+          >
+            {alumniCompanies.map((alumni) => {
+              return (
+                <img
+                  className="w-1/2"
+                  src={alumni.imgData}
+                  alt="Alumni Company Logo"
+                  key={alumni.id}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>

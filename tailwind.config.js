@@ -62,6 +62,8 @@ module.exports = {
       110: "34rem",
       120: "38rem",
       124: "40rem",
+      128: "44rem",
+      130: "46rem",
       200: "60rem",
     },
     screens: {

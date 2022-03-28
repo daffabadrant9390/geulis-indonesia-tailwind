@@ -10,7 +10,7 @@ function RegisterHeader() {
         <h2 className="xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-gray-900 xs:mb-10 md:mb-14 text-center">
           Register Now
         </h2>
-        <div className="relative shadow-xl">
+        <div className="relative shadow-xl" data-aos="fade-up">
           <img
             src={RegisterImg}
             className="relative w-full xs:h-100 lg:h-120 object-cover object-center xs:rounded-lg md:rounded-xl overflow-hidden"
