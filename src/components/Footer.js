@@ -17,7 +17,7 @@ function Footer() {
         {/* END: GEULIS INDONESIA LOGO */}
 
         {/* START: GEULIS DESCRIPTION*/}
-        <p className="xs:text-base md:text-lg font-normal text-gray-600 leading-snug row-start-2">
+        <p className="xs:text-sm md:text-base font-normal text-gray-600 leading-snug row-start-2">
           We are looking forward for a collaboration in any forms that matches
           our community and activities. Please contact us below!
         </p>
@@ -30,13 +30,13 @@ function Footer() {
           </h4>
           <Link
             to="/about"
-            className="xs:text-base sm:text-lg md:text-xl font-semibold text-gray-700 hover:text-gray-900 transition-all duration-500"
+            className="xs:text-sm sm:text-base md:text-lg font-semibold text-gray-700 hover:text-yellow-500 transition-all duration-500"
           >
             About Us
           </Link>
           <Link
             to="/programs"
-            className="xs:text-base sm:text-lg md:text-xl font-semibold text-gray-700 hover:text-gray-900 transition-all duration-500"
+            className="xs:text-sm sm:text-base md:text-lg font-semibold text-gray-700 hover:text-yellow-500 transition-all duration-500"
           >
             Programs
           </Link>
@@ -94,7 +94,7 @@ function Footer() {
           <h4 className="xs:text-xl md:text-2xl font-bold text-gray-900">
             Contact
           </h4>
-          <p className="xs:text-base md:text-lg font-normal text-gray-600">
+          <p className="xs:text-sm md:text-base font-normal text-gray-600">
             Email: : geulisindonesia01@gmail.com
           </p>
         </div>
@@ -107,13 +107,13 @@ function Footer() {
           </h4>
           <Link
             to="/faq"
-            className="xs:text-base sm:text-lg md:text-xl font-semibold text-gray-700 hover:text-gray-900 no-underline transition-all duration-500"
+            className="xs:text-sm sm:text-base md:text-lg font-semibold text-gray-700 hover:text-yellow-500 no-underline transition-all duration-500"
           >
             FAQ
           </Link>
         </div>
         {/* END: HELP NAVIGATION */}
-        <p className="xs:text-base md:text-lg text-gray-600 font-normal leading-snug xs:row-start-7 md:row-start-3 xs:pt-4 md:pt-0">
+        <p className="xs:text-sm md:text-base text-gray-600 font-normal leading-snug xs:row-start-7 md:row-start-3 xs:pt-4 md:pt-0">
           Copyrights ©2022 Geulis Indonesia. All rights reserved
         </p>
       </div>

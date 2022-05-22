@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Scholarship Hunter Class",
+        "firstP": "Aspire to be an awardee of one or more scholarships during your college journey? This one is for you!",
+        "secondP": "This class will provide the information about scholarships and what needs to be prepared by Geulisius (both knowledge and mental) as their provision to get a scholarship. The goal is that every geulisius can shape their qualities and abilities also determine strategies in selecting scholarship recipients to pass the selection of scholarship acceptance.",
+        "imgUrl": "images/classes/scholarship-class.jpg",
+        "reversed": false
+    },
+    {
+        "id": 2,
+        "name": "Public Speaker Class",
+        "firstP": "Aspire to be a motivational speaker or an expert public speaker? This will suit you perfectly!",
+        "secondP": "This class aims to equip Geulisius members with insight, attitude, and public speaking skills or abilities and have an effective and structured way of communicating. Geulisius will also be given knowledge and trained to grow technical skills in communication. This class is a part of Workshop Class that will be held in 3 meeting sessions.",
+        "imgUrl": "images/classes/public-speaker-class.jpg",
+        "reversed": true
+    },
+    {
+        "id": 3,
+        "name": "Founder Class",
+        "firstP": "Aspire to be a Founder? Initiate your own project? We got you covered!",
+        "secondP": "Founder Class is one of our classes, in which Geulisius will be given knowledge about project launches from preparation to evaluation and able determine the SDG targets to be achieved. Geulisius will also be equipped with practical ways to improvise peopleacquisition skill in recruiting communities and project management skill. This class is a part of Workshop Class that will be held in 3 meeting sessions.",
+        "imgUrl": "images/classes/founder-class.jpg",
+        "reversed": false
+    }
+]

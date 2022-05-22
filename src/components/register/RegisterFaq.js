@@ -10,7 +10,7 @@ function RegisterFaq() {
       id="ready-to-escalate"
       className="w-full h-full flex justify-center shadow-md"
     >
-      <div className="max-w-screen-2xl w-full xs:px-10 md:px-0 py-32 flex justify-between items-center gap-12">
+      <div className="max-w-screen-2xl w-full xs:px-4 md:px-0 xs:py-16 md:py-24 flex justify-between items-center gap-12">
         <div className="relative xs:w-full md:w-1/2 h-full md:pl-10 flex flex-col justify-center xs:items-center md:items-start">
           <h2 className="xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 mb-10 xs:leading-snug lg:leading-snug md:text-left xs:text-center">
             Need any helps? <br />
@@ -18,7 +18,7 @@ function RegisterFaq() {
           </h2>
           <Link
             to="/faq"
-            className="xs:w-40 md:w-48 xs:py-2 md:py-3 rounded-md text-xl font-semibold text-white bg-yellow-500 transition-all duration-500 hover:bg-yellow-600 text-center inline-block"
+            className="xs:w-32 sm:w-36 md:w-48 xs:py-2 md:py-3 rounded-md xs:text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-white bg-yellow-500 transition-all duration-500 hover:bg-yellow-600 text-center inline-block"
           >
             To the FAQ
           </Link>

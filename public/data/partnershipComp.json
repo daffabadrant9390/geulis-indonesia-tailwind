@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "imgUrl": "images/partnership/unilever-logo.png"
+    },
+    {
+      "id": 2,
+      "imgUrl": "images/partnership/xlfl-logo.png"
+    },
+    {
+      "id": 3,
+      "imgUrl": "images/partnership/glints-logo.png"
+    },
+    {
+      "id": 4,
+      "imgUrl": "images/partnership/link-aja-logo.png"
+    },
+    {
+      "id": 5,
+      "imgUrl": "images/partnership/shopee-logo.png"
+    },
+    {
+      "id": 6,
+      "imgUrl": "images/partnership/zenius-logo.png"
+    },
+    {
+      "id": 7,
+      "imgUrl": "images/partnership/iisma-logo.png"
+    },
+    {
+      "id": 8,
+      "imgUrl": "images/partnership/young-leader-indonesia-logo.png"
+    },
+    {
+      "id": 9,
+      "imgUrl": "images/partnership/bytedance-logo.png"
+    },
+    {
+      "id": 10,
+      "imgUrl": "images/partnership/ovo-logo.png"
+    },
+    {
+      "id": 11,
+      "imgUrl": "images/partnership/apple-dev-academy.png"
+    },
+    {
+      "id": 12,
+      "imgUrl": "images/partnership/gojek-logo.png"
+    }
+  ]

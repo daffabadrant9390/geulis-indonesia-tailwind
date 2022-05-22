@@ -1,7 +1,12 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import "./index.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  HashRouter,
+  Route,
+  Switch,
+} from "react-router-dom";
 import Nav from "./components/Nav.js";
 import HomePage from "./pages/HomePage.js";
 import AboutPage from "./pages/AboutPage.js";

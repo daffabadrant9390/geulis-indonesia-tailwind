@@ -3,8 +3,12 @@ import WhyDoWeExistImg from "../../assets/why-do-we-exist.jpg";
 
 function WhyExist() {
   return (
-    <section id="why-do-we-exist" className="w-full h-full flex justify-center">
-      <div className="max-w-screen-2xl w-full xs:px-14 md:px-10 pt-28 pb-16 flex justify-between items-center gap-20 xs:text-center md:text-left">
+    <section
+      id="why-do-we-exist"
+      className="w-full h-full flex justify-center"
+      data-aos="fade-up"
+    >
+      <div className="max-w-screen-2xl w-full px-10 xs:py-24 md:py-28 flex justify-between items-center gap-20 xs:text-center md:text-left">
         <div className="xs:w-full md:w-1/2 h-full flex flex-col justify-center xs:items-center md:items-start order-2">
           <h2 className="xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xs:mb-5 md:mb-10 font-semibold text-gray-900">
             Why Do We Exist?

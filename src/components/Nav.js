@@ -4,16 +4,16 @@ import { Link, useLocation } from "react-router-dom";
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
-  console.log(menuOpen);
+  // console.log(menuOpen);
 
   let { pathname } = useLocation();
-  console.log(pathname);
+  // console.log(pathname);
 
   return (
     <nav className="fixed z-50 w-full h-20 flex justify-center bg-white shadow-lg">
       <div className="max-w-screen-2xl w-full px-10 flex justify-between items-center">
         <div className="grow-3">
-          <Link to="/" onClick={() => setMenuOpen(false)}>
+          <Link to="/" onClick={() => setMenuOpen(false)} className="w-12 h-12">
             <img
               className="w-12 h-12 object-cover"
               src={logo}
@@ -63,13 +63,28 @@ function Nav() {
         >
           <li>
             <Link
+              to="/"
+              className={
+                pathname === "/"
+                  ? "xs:text-base md:text-lg text-yellow-500 no-underline"
+                  : "xs:text-base md:text-lg text-gray-500 hover:text-gray-900 no-underline transition-all duration-500"
+              }
+              onClick={() => setMenuOpen(false)}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/about"
               className={
                 pathname === "/about"
-                  ? "xs:text-base md:text-lg font-semibold text-yellow-500 no-underline"
-                  : "xs:text-base md:text-lg font-semibold text-gray-500 hover:text-gray-900 no-underline transition-all duration-500"
+                  ? "xs:text-base md:text-lg text-yellow-500 no-underline"
+                  : "xs:text-base md:text-lg text-gray-500 hover:text-gray-900 no-underline transition-all duration-500"
               }
-              onClick={() => setMenuOpen(false)}
+              onClick={() => {
+                setMenuOpen(false);
+              }}
             >
               About
             </Link>
@@ -79,8 +94,8 @@ function Nav() {
               to="/programs"
               className={
                 pathname === "/programs"
-                  ? "xs:text-base md:text-lg font-semibold text-yellow-500 no-underline"
-                  : "xs:text-base md:text-lg font-semibold text-gray-500 hover:text-gray-900 no-underline transition-all duration-500"
+                  ? "xs:text-base md:text-lg text-yellow-500 no-underline"
+                  : "xs:text-base md:text-lg text-gray-500 hover:text-gray-900 no-underline transition-all duration-500"
               }
               onClick={() => setMenuOpen(false)}
             >
@@ -92,8 +107,8 @@ function Nav() {
               to="/faq"
               className={
                 pathname === "/faq"
-                  ? "xs:text-base md:text-lg font-semibold text-yellow-500 no-underline"
-                  : "xs:text-base md:text-lg font-semibold text-gray-500 hover:text-gray-900 no-underline transition-all duration-500"
+                  ? "xs:text-base md:text-lg text-yellow-500 no-underline"
+                  : "xs:text-base md:text-lg text-gray-500 hover:text-gray-900 no-underline transition-all duration-500"
               }
               onClick={() => setMenuOpen(false)}
             >

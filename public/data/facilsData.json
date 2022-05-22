@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "name": "Stephanie Dame Augustine Silalahi",
+      "class": "Scholarship Hunter",
+      "imgUrl": "images/stephanie.jpg",
+      "description": [
+        "Project Support at Boston Consulting Group (BCG)",
+        "XL Axiata Future Leaders Awardee Batch 9",
+        "Awardee of Generasi Baru Indonesia (GenBI) Scholarship",
+        "Most Outstanding Student of FEB UGM 2020/2021"
+      ],
+      "linkedin": "https://www.linkedin.com/in/stephaniedameaugustine/"
+    },
+    {
+      "id": 2,
+      "name": "Aldo Jusman",
+      "class": "Public Speaker",
+      "imgUrl": "images/aldo-jusman.jpg",
+      "description": [
+        "Education TikTok Content Creator",
+        "XL Axiata Future Leaders Awardee Batch 9",
+        "Business Development Intern at Ternak Uang",
+        "National Operations Manager at StudentCatalyst 2020/2021"
+      ],
+      "linkedin": "https://www.linkedin.com/in/aldojusman/"
+    },
+    {
+      "id": 3,
+      "name": "Adella Irawan",
+      "class": "Founder",
+      "imgUrl": "images/adella-irawan.jpg",
+      "description": [
+        "Co-founder & CTO of OpportuNest",
+        "STAR Program Intern at SAP",
+        "XL Axiata Future Leaders Awardee Batch 10",
+        "Former Product Management Intern at OVO"
+      ],
+      "linkedin": "https://www.linkedin.com/in/adellairawan/"
+    }
+  ]

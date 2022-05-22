@@ -1,8 +1,5 @@
 import React from "react";
-import Facils1 from "../../assets/marsha-dhita.jpg";
-import Facils2 from "../../assets/teams/anathan-pham.jpg";
-import Facils3 from "../../assets/teams/clement-ivanov.jpg";
-import Facils4 from "../../assets/teams/kuro-salehi.jpg";
+// import Facils1 from "../../assets/marsha-dhita.jpg";
 import "../../App.css";
 import {
   Navigation,
@@ -23,58 +20,16 @@ import "swiper/css/effect-cube";
 import "swiper/css/effect-creative";
 import ArrowNext from "../../assets/icons/arrow-next.svg";
 import ArrowPrev from "../../assets/icons/arrow-prev.svg";
+import LinkedinIcon from "../../assets/icons/linkedin-icon-white.png";
 
-function Facils() {
-  const facilsData = [
-    {
-      id: 1,
-      name: "Marsha Dhita",
-      role: "Software Engineer",
-      company: "Tokopedia",
-      imgUrl: Facils1,
-      testimony1:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio.",
-      testimony2:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio.",
-    },
-    {
-      id: 2,
-      name: "Anathan Pham",
-      role: "Business Intelligence",
-      company: "Shopee",
-      imgUrl: Facils2,
-      testimony1:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio.",
-      testimony2:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio.",
-    },
-    {
-      id: 3,
-      name: "Clement Ivanov",
-      role: "Project Manager",
-      company: "Gojek",
-      imgUrl: Facils3,
-      testimony1:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio.",
-      testimony2:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio.",
-    },
-    {
-      id: 4,
-      name: "Kuro Salehi",
-      role: "Senior Talent Acquisition",
-      company: "Traveloka",
-      imgUrl: Facils4,
-      testimony1:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio.",
-      testimony2:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio.",
-    },
-  ];
-
+function Facils({ facils }) {
+  // console.log(facils);
   return (
-    <section id="facils" className="w-full h-full flex justify-center">
-      <div className="max-w-screen-2xl w-full px-10 py-16">
+    <section
+      id="facils"
+      className="w-full h-full flex justify-center shadow-md"
+    >
+      <div className="max-w-screen-2xl w-full xs:px-2 md:px-4 lg:px-10 xs:py-16 md:py-24">
         <div className="w-full text-center xs:mb-10 md:mb-14">
           <h2 className="xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 xs:mb-4 md:mb-8">
             Our Facilitators
@@ -83,8 +38,9 @@ function Facils() {
             Ready to learn directly from them?
           </p>
         </div>
+
         {/* START: FACILS CAROUSEL */}
-        <div className="w-full h-full">
+        <div className="w-full flex justify-center items-center">
           <Swiper
             modules={[Navigation, Autoplay, Pagination, A11y, EffectFade]}
             spaceBetween={50}
@@ -96,8 +52,6 @@ function Facils() {
               nextEl: ".swiper-button-next",
             }}
             effect="fade"
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log("Slides Changed!")}
           >
             <div className="swiper-button-prev">
               <img
@@ -115,39 +69,64 @@ function Facils() {
             </div>
 
             <div className="w-full h-full">
-              {facilsData.map((facil) => {
+              {facils.map((facil) => {
                 return (
-                  <SwiperSlide className="w-full h-full flex justify-center mb-14">
-                    <div className="xs:w-4/6 md:w-5/6 h-full">
-                      <div
-                        className="xs:p-6 sm:p-8 md:p-14 shadow-lg bg-white rounded-xl flex xs:flex-col md:flex-row xs:justify-center md:justify-between xs:items-start md:items-center gap-10"
-                        key={facil.id}
-                      >
-                        <div className="xs:w-full md:w-1/2 flex justify-center">
-                          <div className="xs:w-40 xs:h-40 sm:w-48 sm:h-48 md:w-88 md:h-88">
+                  <SwiperSlide
+                    className="w-full h-full flex justify-center mb-14"
+                    key={facil.id}
+                  >
+                    <div className="w-9/12 h-full">
+                      <div className="xs:p-4 sm:p-6 md:p-10 xs:h-110 sm:h-100 md:h-98 lg:h-96 shadow-lg bg-gray-100 rounded-xl flex xs:flex-col md:flex-row xs:justify-center md:justify-between items-center xs:text-center md:text-left xs:gap-2 sm:gap-4 md:gap-6 lg:gap-10">
+                        {/* START: CARD LEFT */}
+                        <div className="xs:w-full md:w-1/3 flex justify-center">
+                          <div className="xs:w-36 xs:h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 lg:w-60 lg:h-60">
                             <img
                               src={facil.imgUrl}
                               alt={`Facil ${facil.id + 1} Img`}
-                              className="w-full h-full object-cover object-center rounded-full shadow-md"
+                              className="w-full h-full object-cover object-center rounded-full custom-shadow"
                             />
                           </div>
                         </div>
-                        <div className="xs:w-full md:w-1/2">
-                          <h4 className="xs:text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-900">
+                        {/* END: CARD LEFT */}
+
+                        {/* START: CARD RIGHT */}
+                        <div className="xs:w-full md:w-2/3 flex flex-col xs:items-center md:items-start">
+                          <h4 className="xs:text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-yellow-500 ">
                             {facil.name}
                           </h4>
-                          <h5 className="xs:text-sm sm:text-base md:text-lg text-gray-700 mt-3 xs:mb-3 md:mb-6">
-                            {facil.role} at {facil.company}
+                          <h5 className="xs:text-sm md:text-base text-gray-700 font-semibold mt-2 mb-4 ">
+                            Facilitator of {facil.class} Class
                           </h5>
-                          <div className="text-justify">
-                            <p className="text-base xs:leading-normal sm:leading-normal md:leading-normal lg:leading-nromal text-gray-700 xs:mb-2 md:mb-4">
-                              {facil.testimony1}
-                            </p>
-                            <p className="text-base xs:leading-normal sm:leading-normal md:leading-normal lg:leading-nromal text-gray-700">
-                              {facil.testimony2}
-                            </p>
+                          <ul className="xs:mb-2 md:mb-3">
+                            {facil.description.map((desc, idx) => {
+                              return (
+                                <li
+                                  className="xs:text-sm md:text-base text-gray-500 mb-2 ml-4 xs:text-center md:text-left xs:list-none md:list-disc"
+                                  key={idx}
+                                >
+                                  {desc}
+                                </li>
+                              );
+                            })}
+                          </ul>
+                          <div className="inline-block">
+                            <a
+                              href={facil.linkedin}
+                              target="_blank"
+                              className="px-4 py-2 rounded-sm bg-purple-700 text-white flex gap-2 items-center justify-center transition-all duration-500 hover:bg-purple-800"
+                            >
+                              <img
+                                src={LinkedinIcon}
+                                alt="linkedin icon"
+                                className="w-6 h-6 object-cover"
+                              />
+                              <span className="xs:text-sm md:text-base">
+                                Linkedin
+                              </span>
+                            </a>
                           </div>
                         </div>
+                        {/* END: CARD RIGHT */}
                       </div>
                     </div>
                   </SwiperSlide>

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Workshop Class",
+        "firstP": "This program is one of the essential agendas in unlocking self-potentital mission in each of Geulisius member. Workshop class are held three times which will be facilitated by realiable facilitators according to Geulisius’s respective classes (public speaker, scholarship hunter and founder class).",
+        "secondP": "After participating in the Workshop Class program, Gelisius are expected to fulfill their dreams and implement each course they took for months for their future careers and studies.",
+        "imgUrl":"images/activities/workshop-class.jpg",
+        "reversed": false
+    },
+    {
+        "id": 2,
+        "name": "Global Forum",
+        "firstP": "Global Forum is a forum that aims to ensure you are preparing your extra miles for professional career. There will be three Global Forums, which will be talking further about personal branding, internship and any career 101 topics.",
+        "secondP": "Regardless of their class origin, all Geulisius members will get a chance at this Global Forum with topics related to career-focused experiences and can be implemented in their university years or the future.",
+        "imgUrl": "images/activities/global-forum.jpg",
+        "reversed": true
+    },
+    {
+        "id": 3,
+        "name": "IDP (Individual Development Plan)",
+        "firstP": "As one of the visions of Geulis Indonesia is unlocking self-potential, we will equip you with the IDP Mentoring Session files. This IDP session will serve as a guideline for each member of public speaker, scholarship hunter and founder class.",
+        "secondP": "Each member will also write on how they expect Geulis Indonesia can help them, your short-term goals, and significant goals and also each Geulisius's development plan.",
+        "imgUrl": "images/activities/idp.jpg",
+        "reversed": false
+    },
+    {
+        "id": 4,
+        "name": "Final Project",
+        "firstP": "After the series of activities carried out by Geulis Indonesia is completed, all Geulisius members will work on the Final Project. The Final Project is a project to implement what they have learned from their respective Workshops Class or Global Forum.",
+        "secondP": "This final project can help Geulisius explore their abilities and practice designing things. It can be a place for Geulisius to apply the knowledge gained while being a Gelisius member of batch V, provide information and spread benefits to the general public.",
+        "imgUrl": "images/activities/final-project.jpg",
+        "reversed": true
+    }
+]

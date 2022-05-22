@@ -26,14 +26,17 @@ function VisionMission() {
 
   return (
     <section id="vision-mission" className="w-full h-full flex justify-center">
-      <div className="max-w-screen-2xl w-full xs:px-14 md:px-10 py-16 text-center">
+      <div className="max-w-screen-2xl w-full px-10 xs:py-16 md:py-24 text-center">
         {/* START: VISION */}
-        <div className="flex justify-center mb-16">
+        <div className="flex justify-center xs:mb-16 md:mb-24">
           <div className="xs:w-full md:w-120">
             <h2 className="xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 xs:mb-5 md:mb-10">
               Vision
             </h2>
-            <p className="xs:text-sm sm:text-base md:text-lg text-gray-900 xs:leading-relaxed sm:leading-relaxed md:leading-relaxed">
+            <p
+              className="xs:text-sm sm:text-base md:text-lg text-gray-600 xs:leading-relaxed sm:leading-relaxed md:leading-relaxed"
+              data-aos="zoom-in"
+            >
               Improving self-development for unlocking student’s potential,
               prepare professional career and building character.
             </p>
@@ -46,7 +49,7 @@ function VisionMission() {
           <h2 className="xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 xs:mb-5 md:mb-10">
             Missions
           </h2>
-          <p className="xs:text-sm sm:text-base md:text-lg text-gray-900 xs:mb-8 md:mb-14">
+          <p className="lg:text-lg md:text-base xs:text-sm text-gray-600 leading-relaxed xs:mb-8 md:mb-14">
             Our missions are
           </p>
           <div className="w-full flex justify-center">

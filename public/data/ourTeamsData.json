@@ -1,0 +1,128 @@
+[
+    {
+      "id": 1,
+      "imgUrl": "images/teams/Saesarinalda Sulistyaningsih Ayuraji.png",
+      "name": "Saesarinalda Sulistyaningsih Ayuraji",
+      "position": "Director of Operation",
+      "department": "Operation"
+    },
+    {
+      "id": 2,
+      "imgUrl": "images/teams/Gracya Ruth Yustar Stefanie Putri.jpeg",
+      "name": "Gracya Ruth Yustar Stefanie Putri",
+      "position": "Director of Marketing",
+      "department": "Marketing"
+    },
+    {
+      "id": 3,
+      "imgUrl": "images/teams/Fikri Ariansyah Pratama.png",
+      "name": "Fikri Ariansyah Pratama",
+      "position": "Director of Human Capital",
+      "department": "Human Capital"
+    },
+    {
+      "id": 4,
+      "imgUrl": "images/teams/Dini Andriani.jpg",
+      "name": "Dini Andriani",
+      "position": "Director of Finance & Partnership",
+      "department": "Finance & Partnership"
+    },
+    {
+      "id": 5,
+      "imgUrl": "images/teams/Elam Arthasasta.jpg",
+      "name": "Elam Arthasasta Wita Wiriyadie ",
+      "position": "Program Manager (Workshop Class)",
+      "department": "Operation"
+    },
+    {
+      "id": 6,
+      "imgUrl": "images/teams/Aninda Nuraygy Hajjisa.jpg",
+      "name": "Aninda Nuraygy Hajjisa",
+      "position": "Program Manager (Global Forum)",
+      "department": "Operation"
+    },
+    {
+      "id": 7,
+      "imgUrl": "images/teams/Vivin Ardiana.png",
+      "name": "Vivin Ardiana",
+      "position": "Program Manager (IDP and Final Project)",
+      "department": "Operation"
+    },
+    {
+      "id": 8,
+      "imgUrl": "images/teams/Yumima Angeline.jpg",
+      "name": "Yumima Angeline Leoni Nainggolan ",
+      "position": "Marketing and Communication Manager",
+      "department": "Marketing"
+    },
+    {
+      "id": 9,
+      "imgUrl": "images/teams/Vania Nathasya Sinaga.jpg",
+      "name": "Vania Nathasya Sinaga",
+      "position": "Marketing and Communication Manager",
+      "department": "Marketing"
+    },
+    {
+      "id": 10,
+      "imgUrl": "images/teams/Justin Owen.png",
+      "name": "Justin Owen Wijaya",
+      "position": "Creative Manager",
+      "department": "Marketing"
+    },
+    {
+      "id": 11,
+      "imgUrl": "images/teams/Andhika Permata Syafaqaa.jpg",
+      "name": "Andhika Permata Syafaqa",
+      "position": "Creative Manager",
+      "department": "Marketing"
+    },
+    {
+      "id": 12,
+      "imgUrl": "images/teams/M. Daffa Badran Thoriq.jpg",
+      "name": "M. Daffa Badran Thoriq",
+      "position": "Software Engineer Manager",
+      "department": "Marketing"
+    },
+    {
+      "id": 13,
+      "imgUrl": "images/teams/Fradhana Poulsen.jpg",
+      "name": "Putera Fradhana Caeshandra",
+      "position": "Web Designer Manager",
+      "department": "Marketing"
+    },
+    {
+      "id": 14,
+      "imgUrl": "images/teams/Clarissa Dewanti.jpeg",
+      "name": "Clarissa Dewanti Pratiwi Siregar",
+      "position": "People Management Manager",
+      "department": "Human Capital"
+    },
+    {
+      "id": 15,
+      "imgUrl": "images/teams/Muhamad Devasso Azzura Adam.jpg",
+      "name": "Muhamad Devasso Azzura Adam",
+      "position": "People Management Manager",
+      "department": "Human Capital"
+    },
+    {
+      "id": 16,
+      "imgUrl": "images/teams/dandy-handho.jpg",
+      "name": "Dandy Dwi Putra Handho",
+      "position": "People Partner Manager",
+      "department": "Human Capital"
+    },
+    {
+      "id": 17,
+      "imgUrl": "images/teams/Silmi Kamilia Rihadatul Aisy.jpg",
+      "name": "Silmi Kamilia Rihadatul Aisy",
+      "position": "Finance Manager",
+      "department": "Finance & Partnership"
+    },
+    {
+      "id": 18,
+      "imgUrl": "images/teams/Fevita Rahmawati.jpg",
+      "name": "Fevita Rahmawati",
+      "position": "Partnership Manager",
+      "department": "Finance & Partnership"
+    }
+  ]

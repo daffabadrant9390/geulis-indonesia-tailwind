@@ -41,7 +41,7 @@ function Benefit() {
       id="benefit"
       className="w-full h-full flex justify-center items-center"
     >
-      <div className="max-w-screen-2xl px-10 pt-32 pb-16 flex lg:flex-row xs:flex-col items-center lg:gap-20 xs:gap-10">
+      <div className="max-w-screen-2xl xs:px-6 md:px-10 pt-32 xs:pb-16 md:pb-24 flex lg:flex-row xs:flex-col items-center lg:gap-20 xs:gap-10">
         <div
           className="lg:w-1/2 xs:w-full grid xs:grid-cols-1 sm:grid-cols-2 gap-4 items-center justify-between lg:order-1 xs:order-2"
           data-aos="fade-up"
@@ -53,11 +53,11 @@ function Benefit() {
                 key={benefit.id}
               >
                 <img
-                  className="xs:w-10 xs:h-10 md:w-16 md:h-16 object-cover"
+                  className="xs:w-10 xs:h-10 md:w-14 md:h-1w-14 object-cover"
                   src={benefit.imgUrl}
                   alt={benefit.title}
                 />
-                <h4 className="text-xl font-semibold text-gray-900 my-3">
+                <h4 className="text-xl font-semibold text-gray-900 xs:my-3 md:my-6">
                   {benefit.title}
                 </h4>
                 <p className="xs:text-sm md:text-base text-gray-600 text-justify">
@@ -69,12 +69,12 @@ function Benefit() {
         </div>
         <div className="lg:w-1/2 xs:w-full lg:order-2 xs:order-1 xs:text-center lg:text-left flex flex-col xs:items-center lg:items-start">
           <div className="xs:w-full sm:w-100 xl:w-110">
-            <h2 className="xs:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 xs:mb-5 lg:mb-10">
+            <h2 className="xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-900 xs:mb-5 lg:mb-8">
               Why Join Us?
             </h2>
             <p className="lg:text-lg md:text-base xs:text-sm text-gray-600 leading-relaxed">
-              We provide you a safe and engaging platform to unfold your brand
-              new-self and turn your goals into real actions
+              We provide you a safe and supportive environment to unfold your
+              brand new-self and transform your goals into real actions.
             </p>
           </div>
         </div>
